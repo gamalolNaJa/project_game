@@ -35,7 +35,7 @@ export default async function GameDetailPage({ params }: Props) {
 
     return (
         <div style={{ maxWidth: "600px", margin: "40px auto", padding: "20px" }}>
-            <Link href="/games">← กลับไปหน้าแรก</Link>
+            <Link href="/games">← กลับไปหน้ารายการเกม</Link>
             <h1 style={{ marginTop: "20px" }}>{game.title}</h1>
             <div
                 style={{

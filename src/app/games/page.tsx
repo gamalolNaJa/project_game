@@ -136,7 +136,7 @@ export default function GamesPage() {
                 background: "red",
                 borderRadius: "5px",
                 width: "150px"
-            }}><a href="/">กลับไปหน้ารายการเกม</a></div>
+            }}><a href="/">กลับไปหน้าแรก</a></div>
 
 
             <form
