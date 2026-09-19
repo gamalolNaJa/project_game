@@ -135,7 +135,7 @@ export default function GamesPage() {
             <div style={{
                 background: "red",
                 borderRadius: "5px",
-                width: "150px"
+                width: "fit-content"
             }}><a href="/">กลับไปหน้าแรก</a></div>
 
 
