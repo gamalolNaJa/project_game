@@ -6,7 +6,7 @@ import { initialGames } from "@/data/games";
 
 export default function HomePage() {
   return (
-    <div style={{ padding: "40px", textAign: "center", fontFamily: "sans-serif" }}>
+    <div style={{ padding: "40px", fontFamily: "sans-serif" }}>
       <h1>บันทึกรายการเกมที่ตั้งใจจะเล่น</h1>
       <p style={{ marginTop: "16px" }}>
         <Link
