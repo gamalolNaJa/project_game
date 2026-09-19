@@ -7,7 +7,7 @@ type Props = {
     params: Promise<{ id: string }>;
 };
 
-// กำหนด Title ของแท็บตามชื่อเกม
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const resolvedParams = await params;
     const game = initialGames.find((g) => g.id === Number(resolvedParams.id));
@@ -28,14 +28,14 @@ export default async function GameDetailPage({ params }: Props) {
     const gameId = Number(resolvedParams.id);
     const game = initialGames.find((g) => g.id === gameId);
 
-    // ถ้าไม่พบข้อมูลเกม ให้แสดงหน้า 404 Not Found
+  
     if (!game) {
         notFound();
     }
 
     return (
         <div style={{ maxWidth: "600px", margin: "40px auto", padding: "20px" }}>
-            <Link href="/games">← กลับไปหน้ารายการเกม</Link>
+            <Link href="/games">← กลับไปหน้าแรก</Link>
             <h1 style={{ marginTop: "20px" }}>{game.title}</h1>
             <div
                 style={{
